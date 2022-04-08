@@ -1,0 +1,78 @@
+		CMPUT 229 Laboratory Assignment #4
+		==================================
+
+Final Mark:      54 /100 MARKS TOTAL
+            =====
+
+Part 1:             10 /10 Intro Screen
+
+Part 2:             0 /20 Timer
+
+Part 3:             24 /40 Correct Output
+
+Part 4:             0 /10 Random
+
+Part 5:             20 /20 Style
+
+
+-------------------------------------------------------------------------
+Part 1: Intro Screen
+
+ 10 /10
+
+ 3 /3 Proper Phrase appears
+ * Slight difference is acceptable, i.e. small spelling error or slightly different wording is still 3/3
+ 7 /7 Correct behaviour when the keys are pressed
+ * Pressing incorrect keys should have no affect, if it does then 0/7
+
+
+------------------------------------------------------------------------
+Part 2: Timer
+
+ 0 /20
+
+ 0 /5 Timer starts at the correct amount of seconds based on levels 
+ * Can give part marks if two of the three levels work 3/5, if it is the same for all levels then give 2/5
+ 0 /5 Timer counts down every second
+ * No part marks for this part, either it works or it does not
+ 0 /5 Timer is updated when phrase is completed
+ * Part marks can be given if some of the levels are working, if two of the three levels work then 3/5, if it is always the same amount then 2/5
+ 0 /5 Game ends when Timer reaches zero
+
+
+------------------------------------------------------------------------
+Part 3: Correct Output
+
+ 24 /40
+
+ 0 /8 Points increase every time a correct key is pressed
+ * This should always be by 1 point, if it is anything else but 1 point give them 2/5
+ * If points increase  when an incorrect key, then it is 1/5    
+ 6 /8 Phrase is displayed correctly on the screen
+ * The phrase should be displayed in its entirety right at the edge of the screen with no characters coming after 
+ 6 /8 New phrase is displayed and the other characters erased	when a phrase is completed
+ 6 /8 Star Key is added each time
+ * The star key should be added under the next character that needs to be typed, if the star key is instead under the one that was just typed give 2/5
+ 6 /8 Star row is cleared each time a phrased is completed 
+
+ 
+
+------------------------------------------------------------------------
+Part 4: Random
+
+ 0 /10
+
+ 0 /5 Random numbers are correctly generated
+ 0 /5 Saves the number back into the global variable
+
+
+------------------------------------------------------------------------
+Part 5: Style
+
+ 20 /20
+ 
+Some common deductions will include: (5 marks per deduction)
+	No subroutine description
+	No program header
+	No explanation for register usage
+	No block comments
